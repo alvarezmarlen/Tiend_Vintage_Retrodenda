@@ -1,51 +1,58 @@
-# Proyecto-Tienda
-PROYECTO
-<br>
+# 🛍️ RetroDenda - Tienda Online Retro
 
-Retrodenda del grupo Hilos I
-
-DESCRIPCIÓN<br>
-
-El proyecto está creado por estudiantes del Bootcamp de desarrolladores fullstack de Peñascal F5 de Bilbao.
-
-Fue creado para practicar nuestros conocimientos teóricos en html, css, javascript, git e implantarlos en grupo. 
-
-De esta manera, los problemas que nos hayan ido surgiendo nos han ayudado a buscar soluciones para solventarlos, comunicarnos entre nosotros para llegar a consensos en cuanto a diferentes opiniones y aprender muchísimo los unos de los otros.
-
-CARACTERÍSTICAS PRINCIPALES<br>
-
-Las características principales de la página web son:
-- Las animaciones integradas.
-- Los enlaces a cada web page.
-- Los enlaces a imágenes descargadas.
-- El uso de compra.
-- El uso del Json.
-- La disposición de cada botón.
-- La barra de navegación.
-- El carrusel.
+![Vista previa de RetroDenda](./docs/screenshot.png)
+¡Bienvenido a **RetroDenda**! Un proyecto nacido de la pasión por lo clásico y el aprendizaje constante. Este es el resultado del trabajo en equipo de estudiantes del Bootcamp Fullstack de **Peñascal F5** (Bilbao).
 
 
-TECNOLOGÍAS<br>
 
-Las herramientas utilizadas son los lenguajes HTML5, CSS3 y Javascript.
+## 📝 Descripción del Proyecto
+RetroDenda es una plataforma de e-commerce con estética retro, desarrollada para poner en práctica nuestras habilidades en el desarrollo web. El objetivo principal fue integrar un frontend dinámico con un backend funcional, enfrentándonos a retos reales de comunicación de datos y trabajo colaborativo.
 
-El repositorio Git/Github. 
+---
 
-Como herramienta de productividad hemos utilizado Trello. Con el cual hemos organizado nuestro plan de trabajo diario, para tener claro nuestros requerimientos, y seguir los objetivos del proyecto.
+## 🚀 Instalación y Uso
 
+Para ver la tienda en funcionamiento, necesitas poner en marcha tanto el **servidor** (datos) como la **interfaz** (cliente).
 
-Tareas por hacer<br>
+### 1. Preparar el Backend 🔌
+Este proyecto utiliza un servidor de datos local.
+1. Sigue las instrucciones de instalación en el [Repositorio del Backend](https://github.com/alvarezmarlen/backend-tienda-retrodenda).
+2. Asegúrate de que el servidor esté corriendo en `http://localhost:8000`.
 
-- Los cambios de idioma 
-- Backend en general
-- Mejoras de estetica y dinamica
+### 2. Ejecutar el Frontend 💻
+Una vez que el backend esté encendido:
+1. Clona este repositorio en tu máquina.
+2. Abre el archivo `index.html` en tu navegador (recomendamos usar la extensión **Live Server** de VS Code).
 
+---
 
-AUTORES<br>
-Los autores de este proyecto somos:
+## ✨ Características Principales
+* **Animaciones integradas:** Experiencia visual fluida. 🎬
+* **Gestión de Carrito:** Sistema funcional para añadir y gestionar productos. 🛒
+* **Base de Datos Dinámica:** Uso de JSON y peticiones `fetch` para mostrar productos reales. 📦
+* **Diseño Responsivo:** Navegación optimizada y carrusel de imágenes interactivo. 🖼️
 
-- ramironavas
-- jorgecereceda
-- juancarlos0977
-- JuniorGino
-- alvarezmarlen
+---
+
+## 🛠️ Tecnologías Utilizadas
+* **Lenguajes:** HTML5, CSS3, JavaScript (Vanilla). 🏗️
+* **Herramientas de Versiones:** Git & GitHub. 🐙
+* **Productividad:** Trello (Metodología Ágil para organización de tareas). 📋
+
+---
+
+## 👥 Autores y Colaboradores
+Este proyecto fue desarrollado de manera colaborativa por el equipo **Hilos I**:
+
+* **Marlen Alvarez** - [GitHub](https://github.com/alvarezmarlen) (Desarrollo y mantenimiento del Fork)
+* **Juan Carlos** - [GitHub](https://github.com/JuanCarlos0977)
+* **Jorge Cereceda** - [GitHub](https://github.com/jorgecereceda)
+* **Junior Gino** - [GitHub](https://github.com/juniorgino)
+* **Ramiro Navas** - [GitHub](https://github.com/ramironavas)
+
+---
+
+### 📌 Próximos Pasos (Roadmap)
+* [ ] Implementación de cambio de idioma (Multilenguaje). 🌍
+* [ ] Mejoras en la estética y dinamismo del flujo de compra. ✨
+* [ ] Robustecimiento del Backend. ⚙️
