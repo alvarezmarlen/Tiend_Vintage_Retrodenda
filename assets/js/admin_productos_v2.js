@@ -76,7 +76,7 @@ let datos = [];
 async function main() {
 
     //obtenemos datos y los pintamos:
-    const URL = 'http://localhost:8000/productos';
+    const URL = 'https://backend-tienda-retrodenda.onrender.com/productos';
     datos = await obtenerArticulos(URL); //la funcion se detiene aqui hasta obener los datos
 
     pintarDatos(datos);

@@ -1,6 +1,6 @@
 /* import { articulosJSON } from './main.js'; */
 
-const url   ="http://localhost:8000/productos"
+const url   ="https://backend-tienda-retrodenda.onrender.com/productos"
 fetch(url)
     .then(Response => Response.json())
     .then(articulosJSON => { 

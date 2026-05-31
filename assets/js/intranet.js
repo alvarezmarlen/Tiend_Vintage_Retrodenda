@@ -1,7 +1,7 @@
 /* Esta parte permite que los productos que estan en database.Json  
  se plasmen en la pagina Panel de Administracion en la tabla, 
  exactamente en el cuerpo de la tabla */
-const url = "http://localhost:8000/productos";
+const url = "https://backend-tienda-retrodenda.onrender.com/productos";
 const DOMitems = document.querySelector(".productos-items");
 
 let productos = [];
@@ -80,7 +80,7 @@ function pintarProductos() {
     
     btnEliminar.addEventListener("click", function()  {
       if (confirm(`¿Borrar ${producto.descripcion}?`)) {
-        fetch(`http://localhost:8000/productos/${producto.id}`, {
+        fetch(`https://backend-tienda-retrodenda.onrender.com/productos/${producto.id}`, {
           method: 'DELETE'
         })
         .then(() => {
@@ -160,11 +160,11 @@ no me guarde un producto vacio.
   };
 
 // 🔑 AQUÍ ESTÁ LA CLAVE
-  let url2 = "http://localhost:8000/productos";
+  let url2 = "https://backend-tienda-retrodenda.onrender.com/productos";
   let method = "POST"; // crear por defecto
 
   if (idEditar) {
-    url2 = `http://localhost:8000/productos/${idEditar}`;
+    url2 = `https://backend-tienda-retrodenda.onrender.com/productos/${idEditar}`;
     method = "PUT"; // editar
   }
 

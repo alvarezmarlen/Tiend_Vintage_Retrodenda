@@ -5,7 +5,7 @@ let articulosJSON = [];
 
 // Función para cargar productos desde JSON server
 function cargarProductosDesdeServer() {
-  return fetch("http://localhost:8000/productos")
+  return fetch("https://backend-tienda-retrodenda.onrender.com/productos")
     .then(response => {
       if (!response.ok) throw new Error("Error al cargar productos");
       return response.json();
